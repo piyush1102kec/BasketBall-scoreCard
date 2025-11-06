@@ -9,6 +9,7 @@
 body {
   background-color: #e3e9f0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -73,5 +74,24 @@ body {
   border-color: #ff3b3b;
 }
 
-/* Optional: Digital Font Import */
-@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+.reset-container {
+  margin-top: 30px;
+}
+
+#reset-btn {
+  background-color: #ff3b3b;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#reset-btn:hover {
+  background-color: #d82b2b;
+  transform: scale(1.05);
+}

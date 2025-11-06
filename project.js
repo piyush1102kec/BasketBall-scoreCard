@@ -32,3 +32,9 @@ function inc3(){
     guestCount += 3
     guestPts.textContent = guestCount
 }
+function resetScores(){
+    homeCount = 0
+    guestCount = 0
+    homePts.textContent = homeCount
+    guestPts.textContent = guestCount
+}
